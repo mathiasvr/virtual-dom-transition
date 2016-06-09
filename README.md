@@ -60,7 +60,7 @@ li.item {
 ```
 
 ## version
-The module follows the `version` numbering of [virtual-dom][1].
+The module follows the major and minor `version` numbering of [virtual-dom][1].
 
 ## inspiration
 This module is inspired by the [ReactCSSTransitionGroup](https://facebook.github.io/react/docs/animation.html) of React.

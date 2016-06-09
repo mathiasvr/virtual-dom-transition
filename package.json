@@ -1,6 +1,6 @@
 {
   "name": "virtual-dom-transition",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A modified patch for virtual-dom making it easy to work with CSS transitions and animate elements being inserted or removed.",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,17 @@
   "license": "MIT",
   "dependencies": {
     "virtual-dom": "2.1.x"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiasvr/virtual-dom-transition.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mathiasvr/virtual-dom-transition/issues"
+  },
+  "homepage": "https://github.com/mathiasvr/virtual-dom-transition#readme"
 }
