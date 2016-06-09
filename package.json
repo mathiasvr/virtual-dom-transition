@@ -15,12 +15,16 @@
   "author": "Mathias Rasmussen <mathiasvr@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "virtual-dom": "2.1.x"
+    "virtual-dom": "2.1.x",
+    "global": "^4.3.0",
+    "x-is-array": "0.1.0"
+  },
+  "devDependencies": {
+    "main-loop": "^3.2.0"
   },
   "directories": {
     "example": "example"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mathiasvr/virtual-dom-transition.git"
