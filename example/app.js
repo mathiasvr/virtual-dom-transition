@@ -15,12 +15,12 @@ function renderItem (item) {
   return listItem
 }
 
-function render () {
+function render (state) {
   return h('div', [
     h('section.list.swing', [
       h('button', { 'onclick': addItem }, 'Add a list item'),
-      h('ul', state.items.map(function (content) {
-        renderItem(content)
+      h('ul', state.items.map(function (item) {
+        return renderItem(item)
       }))
     ])
   ])
