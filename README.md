@@ -24,7 +24,7 @@ The `patch` method is almost identical to the original from [virtual-dom][1]
 with minor changes to add CSS transition support.
 
 ## documentation
-Transition support are enabled by adding a `transition` property to a VNode you want to animate.
+Transition support is enabled by adding a `transition` property to a `VNode` you want to animate.
 
 The `duration` specifies the DOM removal delay, which should be the same as your css `transition-duration`.
 When an element is inserted to DOM the `enter` class is added, and removed in the next tick.
@@ -35,7 +35,7 @@ var item = h('li.item', { key: ID }, 'List-item')
 item.transition = {
     duration: 1000,
     enterClass: 'enter',
-    leaveClass: 'leave
+    leaveClass: 'leave'
 }
 ```
 
