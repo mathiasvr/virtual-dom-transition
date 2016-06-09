@@ -2,6 +2,8 @@
 A modified `patch` for [virtual-dom][1],
 making it easy to work with CSS transitions and animate elements being inserted or removed.
 
+[View example on RequireBin](http://requirebin.com/?gist=11c2c2961ad72af91f853b97abf4ad66)
+
 [npm-img]: https://img.shields.io/npm/v/virtual-dom-transition.svg
 [npm-url]: https://www.npmjs.com/package/virtual-dom-transition
 [dep-img]: https://david-dm.org/mathiasvr/virtual-dom-transition.svg
