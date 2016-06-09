@@ -1,0 +1,20 @@
+{
+  "name": "virtual-dom-transition",
+  "version": "2.1.1",
+  "description": "A modified patch for virtual-dom making it easy to work with CSS transitions and animate elements being inserted or removed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "transition",
+    "animation",
+    "virtual-dom"
+  ],
+  "author": "Mathias Rasmussen <mathiasvr@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "virtual-dom": "2.1.x"
+  }
+}
